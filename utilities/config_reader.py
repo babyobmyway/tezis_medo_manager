@@ -9,6 +9,7 @@ DSP_PCHO_DIR = env.str("DSP_PCHO_DIR")
 DSP_TEZIS_DIR = env.str("DSP_TEZIS_DIR")
 MEDO_DIR = env.str("MEDO_DIR")
 SED_DIR = env.str("SED_DIR")
+FAILED = env.str("FAILED")
 
 DSP_ID = env.str("DSP_ID")
 PCHO_ID = env.str("PCHO_ID")
