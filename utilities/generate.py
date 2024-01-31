@@ -13,7 +13,6 @@ def generate_pdf(filename: str, catalog: dict):
     annotation = "Аннотация: " + catalog['annotation']
     count_strings = len(annotation) / 40
     canvas.setFont('FreeSansBold', 14)
-    canvas.setFillColorCMYK(100, 0, 73, 1)
     canvas.drawCentredString(xcenter, 610, f"Входящий ДСП документ")
     canvas.setFont('FreeSans', 14)
     canvas.drawCentredString(xcenter, 580, f"Номер и дата: {catalog['date_number']}")
